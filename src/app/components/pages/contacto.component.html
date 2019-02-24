@@ -1,0 +1,101 @@
+<article class="row m-0 height100 w-100 position-absolute position-left position-top z1 text-white">
+  <div class="position-fixed position-left position-top w-50 d-flex justify-content-center align-items-center height100">
+    <div class="ml-5 mr-2 w-50">
+      <h2 class="text-white mb-2">Formulario</h2>
+
+
+      <form (ngSubmit)="onSubmit(); matiForm.reset()" #matiForm="ngForm">
+        <input
+          disabled
+          type="text"
+          placeholder="Nombre"
+          class="d-block w-100 border-0 mb-2"
+          required
+          id="name"
+          [(ngModel)]="model.name"
+          name="name"
+          #name="ngModel"
+        />
+        <input
+          disabled
+          type="email"
+          placeholder="Correo"
+          class="d-block w-100 border-0 mb-2"
+          required
+          id="email"
+          [(ngModel)]="model.email"
+          name="email"
+          #email="ngModel"
+        />
+        <textarea
+          disabled
+          placeholder="Mensaje"
+          rows="6"
+          class="d-block w-100 border-0 mb-2"
+          required
+          id="message"
+          [(ngModel)]="model.message"
+          name="message"
+          #message="ngModel"
+        ></textarea>
+        <input
+          type="submit"
+          value="Enviar"
+          class="mb-0 d-block w-100 border-0 h4 bg-white text-primary"
+          [disabled]="!matiForm.form.valid"
+        />
+      </form>
+
+
+
+    </div>
+  </div>
+  <div
+    class="bg-primary height100 position-fixed position-right w-50 d-flex justify-content-center align-items-center"
+    style="background-image: url(assets/contacto/bg-contacto.jpg); background-size: cover; background-position: center center;"
+  >
+    <div class="mr-5 ml-2 w-50">
+      <nav class="mb-3">
+        <a href="mailto:info@matidiaz.com.ar" class="icon text-white d-block h6 d-flex justify-content-start align-items-center">
+          <span class="bg-white text-primary rounded-circle mr-2 d-flex justify-content-center align-items-center">
+            <i class="material-icons">email</i>
+          </span>
+          <span>info@matidiaz.com.ar</span>
+        </a>
+        <a href="tel:1127792931" class="icon text-white d-block h6 d-flex justify-content-start align-items-center">
+          <span class="bg-white text-primary rounded-circle mr-2 d-flex justify-content-center align-items-center">
+            <i class="material-icons">phone_android</i>
+          </span>
+          <span>11 2779 2931</span>
+        </a>
+        <a href="skype:matidiaz00?userinfo" class="icon text-white mb-2 d-block h6 d-flex justify-content-start align-items-center">
+          <span class="bg-white text-primary rounded-circle mr-2 d-flex justify-content-center align-items-center" [inlineSVG]="'/assets/icons/skype.svg'"></span>
+          <span>matidiaz00</span>
+        </a>
+      </nav>
+      <section>
+        <h2 class="text-white mb-2">Redes Sociales</h2>
+        <nav class="row m-0 pr-2">
+          <a target="_blank" class="icon p-0 col-3" href="https://ar.linkedin.com/in/matidiaz/">
+            <span class="bg-white text-primary rounded-circle d-flex justify-content-center align-items-center" [inlineSVG]="'/assets/icons/linkedin.svg'"></span>
+          </a>
+          <a target="_blank" class="icon p-0 col-3" href="https://github.com/matidiaz00">
+            <span class="bg-white text-primary rounded-circle d-flex justify-content-center align-items-center" [inlineSVG]="'/assets/icons/github.svg'"></span>
+          </a>
+          <a target="_blank" class="icon p-0 col-3" href="https://www.youtube.com/user/00matidiaz">
+            <span class="bg-white text-primary rounded-circle d-flex justify-content-center align-items-center" [inlineSVG]="'/assets/icons/youtube.svg'"></span>
+          </a>
+          <a target="_blank" class="icon p-0 col-3" href="http://www.instagram.com/matidiaz00">
+            <span class="bg-white text-primary rounded-circle d-flex justify-content-center align-items-center" [inlineSVG]="'/assets/icons/instagram.svg'"></span>
+          </a>
+          <a target="_blank" class="icon p-0 col-3" href="https://www.soundcloud.com/matidiaz00">
+            <span class="bg-white text-primary rounded-circle d-flex justify-content-center align-items-center" [inlineSVG]="'/assets/icons/soundcloud.svg'"></span>
+          </a>
+          <a target="_blank" class="icon p-0 col-3" href="https://www.behance.net/matidiaz00">
+            <span class="bg-white text-primary rounded-circle d-flex justify-content-center align-items-center" [inlineSVG]="'/assets/icons/behance.svg'"></span>
+          </a>
+        </nav>
+      </section>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,18 @@
+$spacer: 30px !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: -$spacer,
+    2: $spacer,
+    3: ($spacer * 2),
+    4: ($spacer * 3),
+    5: ($spacer * 4)
+  ),
+  $spacers
+);
+
+$primary:       #2baf61 !default;
+$light:         #eeeeee !default;
+//$light:         #c3c3c3 !default;
+$dark:          #333333 !default;

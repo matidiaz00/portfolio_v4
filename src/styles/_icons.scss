@@ -1,0 +1,40 @@
+.icon {
+    margin-bottom: 15px;
+}
+
+.icon > span > i {
+    font-size: 32px;
+}
+
+.icon.icon-lg > span > i {
+    font-size: 50px;
+}
+
+.icon.icon-sm > span > i {
+    font-size: 24px;
+}
+
+.icon > span:first-child {
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+}
+
+.icon.icon-lg > span:first-child {
+    height: 90px;
+    width: 90px;
+    min-width: 90px;
+}
+
+.icon.empty > span:first-child {
+    min-width: 0;
+}
+
+.icon.icon-sm > span:first-child {
+    height: 30px;
+    width: 30px;
+}
+
+.icon.icon-lg > span > i.info {
+    font-size: 107px;
+}

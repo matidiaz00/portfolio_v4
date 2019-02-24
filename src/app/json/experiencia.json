@@ -1,0 +1,371 @@
+[
+
+    {
+        "id" : "0",
+        "name" : "kingdesign",
+        "background" : {
+            "color1" : "#3b56a6",
+            "color2" : "#22b5cb",
+            "color3" : "#9bcb50"
+        },
+        "logo" : {
+            "url" : "assets/experiencia/kingdesign.svg",
+            "height" : "150px",
+            "width" : "auto"
+        },
+        "info" : {
+            "title" : "King Design",
+            "description" : [
+                {
+                    "id": 0,
+                    "text": "Emprendimiento que armamos con un amigo donde tenemos un sistema donde desarrollamos un CMS propio que tiene ya integrada diferentes plantillas. Nuestra idea de tener todo prearmado es que cuando tengamos que hacer un sitio como free-lance no nos tome mucho tiempo de trabajo y así poder tener al mismo tiempo un trabajo bajo relación de dependencia."
+                }
+            ],
+            "title2" : "Mis tareas",
+            "task" : [
+                {
+                    "id": 0,
+                    "text": "Mis tareas son registrar dominios, contratar servidores web, instalar CMS, edición de plantillas, soporte técnico."
+                },
+                {
+                    "id": 1,
+                    "text": "Actualmente sigo trabajando en este emprendimiento."
+                }
+            ]
+        },
+        "icons" : [
+            {
+                "icon" : "date_range",
+                "text" : "Ene 2009 Actualidad"
+            },
+            {
+                "icon" : "work",
+                "text" : "Web master"
+            },
+            {
+                "icon" : "local_offer",
+                "text" : "Freelance"
+            },
+            {
+                "icon" : "link",
+                "url" : "http://www.kingdesign.com.ar",
+                "text" : "Sitio web"
+            }
+        ]
+    },
+
+    {
+        "id" : "1",
+        "name" : "451",
+        "background" : {
+            "color1" : "#333333",
+            "color2" : "#333333",
+            "color3" : "#333333"
+        },
+        "logo" : {
+            "url" : "assets/experiencia/451.svg",
+            "height" : "auto",
+            "width" : "150px"
+        },
+        "info" : {
+            "title" : "451",
+            "description" : [
+                {
+                    "id": 0,
+                    "text": "Agencia digital dedicada a la creación de sitios webs (a demás de otros servicios)."
+                }
+            ],
+            "title2" : "Mis tareas",
+            "task" : [
+                {
+                    "id": 0,
+                    "text": "Estuve a cargo del desarrollo front-end de nuevos proyectos, mantenimiento en sitios de Visa y proyectos antiguos, a demás de tareas extras como el desarrollo de newsletters, validación en formularios o integración de front-end con el gestor de contenidos Umbraco."
+                },
+                {
+                    "id": 1,
+                    "text": "La razon de abandono fue porque hicieron recorte de personal en la empresa."
+                }
+            ]
+        },
+        "icons" : [
+            {
+                "icon" : "date_range",
+                "text" : "Abr 2016 Ene 2017"
+            },
+            {
+                "icon" : "local_offer",
+                "text" : "Frontend"
+            },
+            {
+                "icon" : "work",
+                "text" : "Relación de dependencia"
+            },
+            {
+                "icon" : "link",
+                "text" : "Sitio web",
+                "url" : "http://www.451.com"
+            }
+        ]
+    },
+
+    {
+        "id" : "2",
+        "name" : "contactar",
+        "background" : {
+            "color1" : "#000000",
+            "color2" : "#000000",
+            "color3" : "#000000"
+        },
+        "logo" : {
+            "url" : "assets/experiencia/contactar.svg",
+            "height" : "150px",
+            "width" : "auto"
+        },
+        "info" : {
+            "title" : "Contactar",
+            "description" : [
+                {
+                    "id": 0,
+                    "text": "Empresa de mi padre dedicada al marketing digital."
+                }
+            ],
+            "title2" : "Mis tareas",
+            "task" : [
+                {
+                    "id": 0,
+                    "text": "Mis tareas fueron desarrollar de sitios con el CMS Joomla, edición de plantillas, edición de contenido, soporte técnico, diseño gráfico, administración de correos electrónicos."
+                },
+                {
+                    "id": 1,
+                    "text": "La razón de abandono fue porque me ofrecieron un puesto como front-end en 451 con un mayor sueldo, además de que quería independizarme ya que aquí trabajaba con mi padre."
+                }
+            ]
+        },
+        "icons" : [
+            {
+                "icon" : "date_range",
+                "text" : "Oct 2015 Abr 2016"
+            },
+            {
+                "icon" : "local_offer",
+                "text" : "Web master"
+            },
+            {
+                "icon" : "work",
+                "text" : "Freelance"
+            },
+            {
+                "icon" : "link",
+                "text" : "Sitio web",
+                "url" : "http://www.contactar.com.ar"
+            }
+        ]
+    },
+
+    {
+        "id" : "3",
+        "name" : "kadampa",
+        "background" : {
+            "color1" : "#62aee0",
+            "color2" : "#62aee0",
+            "color3" : "#62aee0"
+        },
+        "logo" : {
+            "url" : "assets/experiencia/kadampa.svg",
+            "height" : "200px",
+            "width" : "auto"
+        },
+        "info" : {
+            "title" : "NEW KADAMPA TRADITION",
+            "description" : [
+                {
+                    "id": 0,
+                    "text": "Tradición Budista en la que trabajé como voluntario en horario no laboral. Estaba a cargo de los proyectos de todo América Latina e hice un voluntariado por seis meses en un Templo de Portugal desarrollando varios proyectos para este país."
+                }
+            ],
+            "title2" : "Mis tareas",
+            "task" : [
+                {
+                    "id": 0,
+                    "text": "Mis tareas fueron creación de sitios web, soporte técnico en Latinoamérica y Portugal, creación de newsletter, diseño web, crear e imprimir diseños gráficos, desarrollo de un proyecto web para todo Latinoamérica, edición de plantillas wordpress, registrar y administrar dominios, contratar y administrar servidores web. gestor de contenido."
+                },
+                {
+                    "id": 1,
+                    "text": "La razón de abandono fue por falta de tiempo."
+                }
+            ]
+        },
+        "icons" : [
+            {
+                "icon" : "date_range",
+                "text" : "Sep 2011 Dic 2015"
+            },
+            {
+                "icon" : "work",
+                "text" : "Web master"
+            },
+            {
+                "icon" : "local_offer",
+                "text" : "Voluntario"
+            },
+            {
+                "icon" : "link",
+                "text" : "Sitio web",
+                "url" : "http://meditarenargentina.org/"
+            }
+        ]
+    },
+
+    {
+        "id" : "4",
+        "name" : "w3",
+        "background" : {
+            "color1" : "#ee5126",
+            "color2" : "#ee5126",
+            "color3" : "#ee5126"
+        },
+        "logo" : {
+            "url" : "assets/experiencia/w3.svg",
+            "height" : "200px",
+            "width" : "auto"
+        },
+        "info" : {
+            "title" : "W3 DIGITAL AGENCY",
+            "description" : [
+                {
+                    "id": 0,
+                    "text": "Se dedican al marketing digital. Estuve en el equipo de diseño y luego me pasaron al de desarrollo web."
+                }
+            ],
+            "title2" : "Mis tareas",
+            "task" : [
+                {
+                    "id": 0,
+                    "text": "Mis tareas fueron desarrollo frontal de sitios web, edición en el desarrollo frontal de sitios, desarrollo de newsletter, edición de contenido para CMS personal de CitiBank, edición de diseños web."
+                },
+                {
+                    "id": 1,
+                    "text": "La razón de abandono fue porque me ofrecieron ir a vivir a Portugal a hacer el voluntariado."
+                }
+            ]
+        },
+        "icons" : [
+            {
+                "icon" : "date_range",
+                "text" : "Jul 2011 May 2014"
+            },
+            {
+                "icon" : "work",
+                "text" : "Frontend"
+            },
+            {
+                "icon" : "local_offer",
+                "text" : "Relación de dependencia"
+            },
+            {
+                "icon" : "link",
+                "text" : "Sitio web",
+                "url" : "http://www.w3americas.com"
+            }
+        ]
+    },
+
+    {
+        "id" : "5",
+        "name" : "contactar2",
+        "background" : {
+            "color1" : "#000000",
+            "color2" : "#000000",
+            "color3" : "#000000"
+        },
+        "logo" : {
+            "url" : "assets/experiencia/contactar.svg",
+            "height" : "150px",
+            "width" : "auto"
+        },
+        "info" : {
+            "title" : "CONTACTAR",
+            "description" : [
+                {
+                    "id": 0,
+                    "text": "Empresa de mi padre dedicada al marketing digital."
+                }
+            ],
+            "title2" : "Mis tareas",
+            "task" : [
+                {
+                    "id": 0,
+                    "text": "Mis tareas fueron desarrollar de sitios con el CMS Joomla, edición de plantillas, edición de contenido, diseño gráfico."
+                },
+                {
+                    "id": 1,
+                    "text": "La razón de abandono fue porque me ofrecieron un puesto como front-end en W3 Digital Agency con un mayor sueldo, además de que quería independizarme ya que aquí trabajaba con mi padre."
+                }
+            ]
+        },
+        "icons" : [
+            {
+                "icon" : "date_range",
+                "text" : "Ene 2009 Jun 2011"
+            },
+            {
+                "icon" : "work",
+                "text" : "Web master"
+            },
+            {
+                "icon" : "local_offer",
+                "text" : "Freelance"
+            },
+            {
+                "icon" : "link",
+                "text" : "Sitio web",
+                "url" : "http://www.contactar.com.ar"
+            }
+        ]
+    },
+
+    {
+        "id" : "6",
+        "name" : "myciber",
+        "background" : {
+            "color1" : "#fc650a",
+            "color2" : "#fc650a",
+            "color3" : "#fc650a"
+        },
+        "logo" : {
+            "url" : "assets/experiencia/my_ciber.svg",
+            "height" : "150px",
+            "width" : "auto"
+        },
+        "info" : {
+            "title" : "MYCYBER",
+            "description" : [
+                {
+                    "id": 0,
+                    "text": "Era un ciber café que teníamos con mi familia."
+                }
+            ],
+            "title2" : "Mis tareas",
+            "task" : [
+                {
+                    "id": 0,
+                    "text": "Mis tareas fueron atender a los clientes, administrar el software que frisaba las PC’s, arreglar los problemas que surgían en las PC’s y cabinas telefónicas, limpieza del local."
+                },
+                {
+                    "id": 1,
+                    "text": "La razon de abandono fue porque el ciber cerró por falta de clientes."
+                }
+            ]
+        },
+        "icons" : [
+            {
+                "icon" : "date_range",
+                "text" : "Ene 2006 Dic 2008"
+            },
+            {
+                "icon" : "work",
+                "text" : "Encargado"
+            }
+        ]
+    }
+]

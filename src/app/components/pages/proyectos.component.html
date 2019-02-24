@@ -1,0 +1,119 @@
+<article
+    *ngIf="!data"
+    style="background-image: url(assets/proyectos/bg-proyectos.jpg);background-size: cover;background-position:center center;"
+    class="height100 py-3 px-5 w-100 position-absolute position-left position-top z1 text-white d-flex justify-content-center align-items-center"
+>
+    <h1 class="m-0">Proyectos</h1>
+</article>
+
+<article
+    *ngIf="data"
+    [ngStyle]="{
+        'background': data.background.color2,
+        'overflow': 'hidden',
+        'background-image': 'url('+ data.background.image +'), linear-gradient(135deg, '+ data.background.color1 +' 0%, '+ data.background.color2 +' 50%, '+ data.background.color3 +' 100%)',
+        'background-size': data.background.size,
+        'background-repeat': data.background.repeat,
+        'background-position': data.background.position
+    }"
+    class="height100 w-100 position-absolute position-left position-top z1"
+>
+    <div *ngIf="!show">
+        <ng-template ngFor let-item [ngForOf]="data.carousel" let-i="index">
+            <section
+                *ngIf="item.type === 'image'"
+                [class.active]="i === 0"
+                class="slider height100 w-100 position-absolute position-left position-top z1 d-flex justify-content-center align-items-center"
+            >
+                <img src="{{ item.url }}" [ngStyle]="{ 'height': item.height, 'width': item.width }" class="mb-4" />
+            </section>
+            <section
+                *ngIf="item.type === 'background'"
+                [class.active]="i === 0"
+                [ngStyle]="{
+                    'background-image': 'url('+ item.url +')',
+                    'background-size': item.size,
+                    'background-position': item.position,
+                    'background-repeat': item.repeat
+                }"
+                class="slider height100 w-100 position-absolute position-left position-top z1 d-flex justify-content-center align-items-center"
+            ></section>
+        </ng-template>
+        <nav class="mx-auto mb-5 position-fixed position-left position-right position-bottom w-50 z1 d-flex flex-row justify-content-center text-center">
+            <a
+                *ngFor="let item of data.carousel; let i = index;"
+                (click)="setItemSlider(i)"
+                class="icon icon-sm p-0 mx-2 empty"
+            >
+                <span class="mx-auto bg-white text-body rounded-circle d-flex justify-content-center align-items-center"></span>
+            </a>
+        </nav>
+    </div>
+    <section *ngIf="show" class="height100 py-3 px-5 w-100 position-absolute position-left position-top z1 d-flex justify-content-center align-items-center text-white">
+        <div class="row mx-5 container">
+            <div class="col-8">
+                <h3>{{ data.info.title }}</h3>
+                <p *ngFor="let p of data.info.description">{{ p.text }}</p>
+            </div>
+            <nav class="col-4">
+                <span class="mb-2 icon text-white d-block h6 d-flex justify-content-start align-items-center">
+                    <span class="bg-transparent text-white border border-white rounded-circle mr-2 d-flex justify-content-center align-items-center">
+                        <i class="material-icons">work_outline</i>
+                    </span>
+                    <span>{{ data.info.work }}</span>
+                </span>
+                <span class="mb-2 icon text-white d-block h6 d-flex justify-content-start align-items-center">
+                    <span class="bg-transparent text-white border border-white rounded-circle mr-2 d-flex justify-content-center align-items-center">
+                        <i class="material-icons">date_range</i>
+                    </span>
+                    <span>{{ data.info.date }}</span>
+                </span>
+                <a href="{{ data.info.link.url }}" target="_blank" class="mb-2 icon text-white d-block h6 d-flex justify-content-start align-items-center">
+                    <span class="bg-transparent text-white border border-white rounded-circle mr-2 d-flex justify-content-center align-items-center">
+                        <i class="material-icons">link</i>
+                    </span>
+                    <span>{{ data.info.link.text }}</span>
+                </a>
+                <a
+                    *ngFor="let x of data.info.extra;"
+                    href="{{ x.url }}"
+                    target="_blank"
+                    class="mb-2 icon text-white d-block h6 d-flex justify-content-start align-items-center"
+                >
+                    <span class="bg-transparent text-white border border-white rounded-circle mr-2 d-flex justify-content-center align-items-center">
+                        <i class="{{ x.class }}"></i>
+                    </span>
+                    <span>{{ x.text }}</span>
+                </a>
+            </nav>
+        </div>
+    </section>
+</article>
+    
+<nav 
+    *ngIf="data"
+    class="position-fixed position-right position-bottom z3 px-3 py-2"
+>
+    <a
+        (click)="show = !show"
+        *ngIf="show"
+        [routerLink]=""
+        fragment=""
+        class="icon icon-lg p-0"
+    >
+        <span class="mx-auto bg-white text-body rounded-circle d-flex justify-content-center align-items-center">
+            <i class="material-icons">close</i>
+        </span>
+    </a>
+    <a
+        (click)="show = !show"
+        *ngIf="!show"
+        [routerLink]=""
+        fragment="informacion"
+        class="icon icon-lg p-0"
+    >
+        <span class="mx-auto bg-body text-white rounded-circle d-flex justify-content-center align-items-center">
+            <i class="material-icons info">info</i>
+        </span>
+    </a>
+</nav>

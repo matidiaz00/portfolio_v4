@@ -1,0 +1,28 @@
+<div *ngIf="setID != 'habilidades'" [attr.id]="setID" [@routerAnimation]="o.isActivated ? o.activatedRoute : ''">
+    <router-outlet #o="outlet"></router-outlet>
+</div>
+
+<article *ngIf="setID === 'habilidades'" class="height100 w-100 position-absolute position-left position-top z1 text-white">
+  <div
+    [@widthAnimation]="home ? 'full': 'middle'"
+    class="bg-primary height100 position-fixed position-left d-flex justify-content-center align-items-center position-relative z3"
+    style="background-image: url(assets/habilidades/bg-habilidades.jpg); background-size: cover; background-position: center center;"
+  >
+    <h1 *ngIf="home" class="m-0">Habilidades</h1>
+    <nav *ngIf="!home" class="text-center h1 m-0">
+      <a [routerLink]="['frontend']" routerLinkActive="opacity-100" class="d-block text-white mb-2 opacity-50">Frontend</a>
+      <a [routerLink]="['diseno']" routerLinkActive="opacity-100" class="d-block text-white mb-2 opacity-50">Diseño</a>
+      <a [routerLink]="['backend']" routerLinkActive="opacity-100" class="d-block text-white mb-2 opacity-50">Backend</a>
+      <a [routerLink]="['idiomas']" routerLinkActive="opacity-100" class="d-block text-white mb-2 opacity-50">Idiomas</a>
+      <a [routerLink]="['mas']" routerLinkActive="opacity-100" class="d-block text-white opacity-50">Más</a>
+    </nav>
+  </div>
+  <div
+    *ngIf="!home"
+    class="position-absolute position-right position-top w-50"
+    style="padding-left: 8px;"
+    [@routerAnimation]="o.isActivated ? o.activatedRoute : ''"
+  >
+    <router-outlet #o="outlet"></router-outlet>
+  </div>
+</article>

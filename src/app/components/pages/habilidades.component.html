@@ -1,0 +1,35 @@
+<div
+    *ngFor="let item of data.items;let isOdd=odd"
+    [class.bg-white-transparent]="isOdd"
+    class="row m-0 py-4 pr-5 pl-3"
+>
+    <div
+        [class.mb-3]="item.header.type === 'image' || item.header.type === 'material_icon' || item.header.type === 'text' && !item.header.paragraph"
+        [class.mb-0]="item.header.type === 'text' && item.header.paragraph"
+        class="col-12 p-0 mb-3"
+    >
+        <div
+            *ngIf="item.header.type === 'image' || item.header.type === 'material_icon'"
+            class="bg-white rounded-circle d-inline-block d-flex justify-content-center align-items-center hab-icon"
+        > 
+            <img
+                *ngIf="item.header.type === 'image'"
+                src="{{ item.header.data }}"
+                height="{{ item.header.height }}"
+            />
+            <i 
+                *ngIf="item.header.type === 'material_icon'"
+                class="material-icons"
+            >{{ item.header.data }}</i>
+        </div>
+        <h2
+            *ngIf="item.header.type === 'text'"
+            [ngClass]="{'m-0' : !item.header.paragraph, 'mb-2' : item.header.paragraph}"
+        >{{ item.header.data }}</h2>
+        <p *ngIf="item.header.type === 'text' && item.header.paragraph" class="m-0">{{ item.header.paragraph }}</p>
+    </div>
+    <div *ngFor="let hab of item.items" class="col-3 p-0 mb-2 d-flex flex-column">
+        <span class="h2 reset-font mb-0">{{hab.number}}%</span>
+        <span>{{hab.text}}</span>
+    </div>
+</div>

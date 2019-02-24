@@ -1,0 +1,778 @@
+[
+
+    {
+        "id" : 0,
+        "name" : "excel",
+        "background" : {
+            "color1" : "#207245",
+            "color2" : "#207245",
+            "color3" : "#207245",
+            "image" : "",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/excel/excel1.svg",
+                "height" : "200px",
+                "width": "auto"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/excel/excel2.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/excel/excel3.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/excel/excel4.svg",
+                "height" : "350px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "Excel",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Se que esto no se relaciona con mi perfil de Frontend pero lo agrego para que se vea que puedo aprender un lenguaje nuevo en poco tiempo, para este proyecto un cliente podía descargar una base de datos de CVs pero se veían mal los datos en excel, mi tarea era crear un macro para reorganizar la tabla, para ello tuve que aprender VBA lo que me llevo aproximadamente una semana (para llegar al nivel que necesitaba el proyecto)."
+                },
+                {
+                    "id" : 1,
+                    "text": "Cree varias funciones, primero cree una pagina nueva donde di el nuevo diseño de tabla, después elimine las celdas vacías y por ultimo fui recorriendo la pagina anterior y cuando los títulos concordaban copie los datos a la nueva pagina, lamentablemente como son muchos datos el proceso tarda varios minutos (hay que tener paciencia), aquí podes descargar un excel de ejemplo y en el link de abajo esta el código que cree 'www.matidiaz.com.ar/cliente/excel/todos.xls'."
+                }
+            ],
+            "work" : "Contactar",
+            "date" : "2018",
+            "link" : {
+                "url" : "http://matidiaz.com.ar/cliente/excel/vba.bas",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 1,
+        "name" : "pdf_generator",
+        "background" : {
+            "backgroundIMG": true,
+            "color1" : "#28a745",
+            "color2" : "#28a745",
+            "color3" : "#28a745",
+            "image" : "assets/proyectos/pdfgenerator/bg.jpg",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/pdfgenerator/pdfgenerator1.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/pdfgenerator/pdfgenerator2.svg",
+                "height" : "300px",
+                "width": "auto"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/pdfgenerator/pdfgenerator3.svg",
+                "height" : "320px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/pdfgenerator/pdfgenerator4.svg",
+                "height" : "350px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "PDF GENERATOR",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Lo desarrolle con JavaScript puro, cargando datos de JSON y de un archivo CSV para auto rellenar el formulario, use los plugins 'https://parall.ax/products/jspdf' y 'https://mozilla.github.io/pdf.js/' para editar un PDF de manera online (mientras vas completando el formulario te va mostrando en tiempo real los cambios en el PDF), por ultimo utilice GruntJS y los archivos SASS de Bootstrap para minimizar los tiempos y hacer una Web APP ligera y ordenada."
+                },
+                {
+                    "id" : 1,
+                    "text": "La idea del proyecto es cargar una Carta de Porte (ej: www.matidiaz.com.ar/cliente/pdfgenerator/source/CartaPorte.pdf) y poder ir cargando los datos de una manera mas sencilla y viendo como queda en tiempo real, en el ultimo paso del formulario ya puedes descargar el PDF con todos los cambios que hiciste, también tengo que agregar que la validación de los campos y como carga los datos fueron decididos por el cliente."
+                }
+            ],
+            "work" : "Contactar",
+            "date" : "2018",
+            "link" : {
+                "url" : "http://www.matidiaz.com.ar/cliente/pdfgenerator/www/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 2,
+        "name" : "rockapp",
+        "background" : {
+            "color1" : "#080808",
+            "color2" : "#080808",
+            "color3" : "#080808",
+            "image" : "assets/proyectos/rockapp/bg.svg",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/rockapp/rockapp1.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 1,
+                "type": "background",
+                "url" : "assets/proyectos/rockapp/rockapp2.svg",
+                "size" : "cover",
+                "repeat" : "no-repeat",
+                "position" : "center center"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/rockapp/rockapp3.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type": "background",
+                "url" : "assets/proyectos/rockapp/rockapp4.svg",
+                "size" : "auto 100%",
+                "repeat" : "no-repeat",
+                "position" : "center center"
+            },
+            {
+                "id" : 4,
+                "type" : "image",
+                "url" : "assets/proyectos/rockapp/rockapp5.svg",
+                "height" : "250px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "ROCKAPP",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Lo diseñe basándome en la libreria Material UI con la cual después desarrolle la maqueta, el desarrollo lo hice con ReactJS (para la futura versión 2.0 estará echa en React Native), usando las API's de Facebook y Youtube para que sea fácil de editar el contenido, después de terminar la APP la subí vía GitHub a PhoneGap Build para que se pueda descargar la APK e instalarla en Android."
+                },
+                {
+                    "id" : 1,
+                    "text": "La idea de este proyecto es poder vender esta misma APP (con diferente diseño y contenido) a diferentes bandas."
+                }
+            ],
+            "work" : "King Design",
+            "date" : "2017",
+            "link" : {
+                "url" : "http://matidiaz.com.ar/cliente/jala_app/build/#/",
+                "text" : "Sitio web"
+            },
+            "extra" : [
+                {
+                    "id" : 0,
+                    "class": "",
+                    "url" : "https://github.com/matidiaz00/rockapp",
+                    "text" : "Gihub"
+                }
+            ]
+        }
+    },
+
+    {
+        "id" : 3,
+        "name" : "ficohsa",
+        "background" : {
+            "color1" : "#41c4dc",
+            "color2" : "#2282c4",
+            "color3" : "#0038a8",
+            "image" : "",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/ficohsa/ficohsa1.svg",
+                "height" : "auto",
+                "width": "400px"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/ficohsa/ficohsa2.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/ficohsa/ficohsa3.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type": "background",
+                "url" : "assets/proyectos/ficohsa/ficohsa4.svg",
+                "size" : "auto 80%",
+                "repeat" : "no-repeat",
+                "position" : "center bottom"
+            },
+            {
+                "id" : 4,
+                "type" : "image",
+                "url" : "assets/proyectos/ficohsa/ficohsa5.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 5,
+                "type" : "image",
+                "url" : "assets/proyectos/ficohsa/ficohsa6.png",
+                "height" : "400px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "FICOHSA",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Armamos con el equipo un sistema echo en umbraco para hacer el sitio de todas sus sucursales en Latino América y yo me encargue de toda el área de front-end."
+                },
+                {
+                    "id" : 1,
+                    "text": "La parte mas compleja que hice en JavaScript y JQuery fue la parte de formularios dejo uno solo de referencia www.ficohsa.com/hn/form-cuenta-ahorro."
+                },
+                {
+                    "id" : 2,
+                    "text": "Este proyecto tiene un sitio principal que te dirige a las sucursales, si queres ver el template de la home podes ir por ejemplo a Honduras www.ficohsa.com/hn."
+                }
+            ],
+            "work" : "451",
+            "date" : "2016",
+            "link" : {
+                "url" : "http://www.ficohsa.com/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 4,
+        "name" : "banco_promerica",
+        "background" : {
+            "color1" : "#066a38",
+            "color2" : "#066a38",
+            "color3" : "#066a38",
+            "image" : "",
+            "size" : "auto 100%",
+            "repeat" : "no-repeat",
+            "position" : "center left"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/promerica/promerica1.svg",
+                "height" : "250px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "BANCO PROMERICA",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Armamos con el equipo un sistema echo en umbraco para hacer el sitio de todas sus sucursales en Latino América y yo me encargue de toda el área de front-end."
+                }
+            ],
+            "work" : "451",
+            "date" : "2016",
+            "link" : {
+                "url" : "https://www.produbanco.com.ec/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 5,
+        "name" : "schenker",
+        "background" : {
+            "color1" : "#dedede",
+            "color2" : "#dedede",
+            "color3" : "#dedede",
+            "image" : "",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/schenker/schenker1.svg",
+                "height" : "auto",
+                "width": "400px"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/schenker/schenker2.svg",
+                "height" : "300px",
+                "width": "auto"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/schenker/schenker3.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/schenker/schenker4.svg",
+                "height" : "350px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "SCHENKER",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "El proyecto es microsite con un sistema para la empresa Schenker, tuve que editar los estilos del template y del plugin para que tengan la misma estética del sitio original, es un sitio echo en Joomla con un plugin para formularios."
+                }
+            ],
+            "work" : "Contactar",
+            "date" : "2017",
+            "link" : {
+                "url" : "http://www.schenker.com.ar/schenker/index.php/transporte-aereo",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 6,
+        "name" : "mir-arte",
+        "background" : {
+            "color1" : "#e2dfc3",
+            "color2" : "#e2dfc3",
+            "color3" : "#e2dfc3",
+            "image" : "",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/mir-arte/mir-arte1.svg",
+                "height" : "auto",
+                "width": "400px"
+            },
+            {
+                "id" : 1,
+                "type": "background",
+                "url" : "assets/proyectos/mir-arte/mir-arte2.png",
+                "size" : "auto 100%",
+                "repeat" : "no-repeat",
+                "position" : "center center"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/mir-arte/mir-arte3.svg",
+                "height" : "400px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/mir-arte/mir-arte4.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 4,
+                "type": "background",
+                "url" : "assets/proyectos/mir-arte/mir-arte5.svg",
+                "size" : "auto 100%",
+                "repeat" : "no-repeat",
+                "position" : "center center"
+            }
+        ],
+        "info" : {
+            "title" : "MIR-@RTE",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Emprendimiento dedicado al mosaiquismo, decoupage y artesanías."
+                },
+                {
+                    "id" : 1,
+                    "text": "Creé el logo en vectores según lo hablado con el cliente, armé una colección de mandalas vectorizados para usar en los diferentes diseños, confeccioné las imágenes de facebook con las características necesarias para que estén en una optima calidad, diseñé y mandé a una imprenta las tarjetas, el display y la carpeta."
+                }
+            ],
+            "work" : "King Design",
+            "date" : "2017",
+            "link" : {
+                "url" : "https://www.facebook.com/mirarteparavos/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 7,
+        "name" : "miami_innovation_center",
+        "background" : {
+            "color1" : "#103279",
+            "color2" : "#103279",
+            "color3" : "#103279",
+            "image" : "assets/proyectos/rockapp/bg.svg",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/miami/miami1.svg",
+                "height" : "auto",
+                "width": "250px"
+            },
+            {
+                "id" : 1,
+                "type": "background",
+                "url" : "assets/proyectos/miami/miami2.svg",
+                "size" : "auto 80%",
+                "repeat" : "no-repeat",
+                "position" : "bottom center"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/miami/miami3.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/miami/miami4.svg",
+                "height" : "350px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "MIAMI INNOVATION CENTER",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Formulario promocional de Visa."
+                }
+            ],
+            "work" : "451",
+            "date" : "2016",
+            "link" : {
+                "url" : "https://promociones.visa.com/miami-innovation-center/survey/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 8,
+        "name" : "visa_promerica",
+        "background" : {
+            "color1" : "#066a38",
+            "color2" : "#066a38",
+            "color3" : "#066a38",
+            "image" : "assets/proyectos/promerica/bg.svg",
+            "size" : "auto 100%",
+            "repeat" : "no-repeat",
+            "position" : "center left"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/visa-promerica/visa-promerica1.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/visa-promerica/visa-promerica2.svg",
+                "height" : "300px",
+                "width": "auto"
+            },
+            {
+                "id" : 2,
+                "type": "background",
+                "url" : "assets/proyectos/visa-promerica/visa-promerica3.svg",
+                "size" : "auto 80%",
+                "repeat" : "no-repeat",
+                "position" : "bottom center"
+            }
+        ],
+        "info" : {
+            "title" : "VISA PROMERICA",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Formulario promocional de Visa."
+                }
+            ],
+            "work" : "451",
+            "date" : "2016",
+            "link" : {
+                "url" : "https://promociones.visa.com/cr/promerica/solicita-tarjeta/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 9,
+        "name" : "visa_spotify",
+        "background" : {
+            "color1" : "#37d9ee",
+            "color2" : "#37d9ee",
+            "color3" : "#37d9ee",
+            "image" : "assets/proyectos/visa-spotify/bg.png",
+            "size" : "auto 90%",
+            "repeat" : "no-repeat",
+            "position" : "bottom center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/visa-spotify/visa-spotify1.svg",
+                "height" : "auto",
+                "width": "250px"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/visa-spotify/visa-spotify2.svg",
+                "height" : "auto",
+                "width": "300px"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/visa-spotify/visa-spotify3.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/visa-spotify/visa-spotify4.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 4,
+                "type": "background",
+                "url" : "assets/proyectos/visa-spotify/visa-spotify5.jpg",
+                "size" : "auto 90%",
+                "repeat" : "no-repeat",
+                "position" : "bottom center"
+            }
+        ],
+        "info" : {
+            "title" : "VISA SPOTIFY",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Promoción Visa de Spotify."
+                }
+            ],
+            "work" : "451",
+            "date" : "2016",
+            "link" : {
+                "url" : "https://promociones.visa.com/hn/spotify-ficohsa/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 10,
+        "name" : "book_contact",
+        "background" : {
+            "color1" : "#333333",
+            "color2" : "#333333",
+            "color3" : "#333333",
+            "image" : "",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/bookcontact/bookcontact1.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/bookcontact/bookcontact2.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/bookcontact/bookcontact3.svg",
+                "height" : "300px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/bookcontact/bookcontact4.svg",
+                "height" : "350px",
+                "width": "auto"
+            }
+        ],
+        "info" : {
+            "title" : "BOOK CONTACT 451",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "El proyecto se creó para promocionar un libro de la empresa donde muestra los proyectos realizados en el 2015."
+                }
+            ],
+            "work" : "451",
+            "date" : "2016",
+            "link" : {
+                "url" : "http://bookcontact.451.com/",
+                "text" : "Sitio web"
+            }
+        }
+    },
+
+    {
+        "id" : 11,
+        "name" : "templo_de_sintra",
+        "background" : {
+            "color1" : "#a7875e",
+            "color2" : "#a7875e",
+            "color3" : "#a7875e",
+            "image" : "assets/proyectos/templo/bg.jpg",
+            "size" : "cover",
+            "repeat" : "no-repeat",
+            "position" : "center center"
+        },
+        "carousel" : [
+            {
+                "id" : 0,
+                "type" : "image",
+                "url" : "assets/proyectos/templo/templo1.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 1,
+                "type" : "image",
+                "url" : "assets/proyectos/templo/templo2.svg",
+                "height" : "250px",
+                "width": "auto"
+            },
+            {
+                "id" : 2,
+                "type" : "image",
+                "url" : "assets/proyectos/templo/templo3.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 3,
+                "type" : "image",
+                "url" : "assets/proyectos/templo/templo4.svg",
+                "height" : "350px",
+                "width": "auto"
+            },
+            {
+                "id" : 4,
+                "type": "background",
+                "url" : "assets/proyectos/templo/templo5.jpg",
+                "size" : "cover",
+                "repeat" : "no-repeat",
+                "position" : "center center"
+            }
+        ],
+        "info" : {
+            "title" : "TEMPLO DE SINTRA",
+            "description" : [
+                {
+                    "id" : 0,
+                    "text": "Tradición Budista en la que trabajé como voluntario en horario no laboral."
+                },
+                {
+                    "id" : 1,
+                    "text": "El proyecto se creó para que este Templo Budista se incluya en el circuito turístico de Sintra además de atraer turistas a conocer el Templo."
+                }
+            ],
+            "work" : "King Design",
+            "date" : "2014",
+            "link" : {
+                "url" : "http://www.templodesintra.pt/",
+                "text" : "Sitio web"
+            },
+            "extra" : [
+                {
+                    "id" : 0,
+                    "class": "",
+                    "url" : "https://www.behance.net/gallery/24678113/Templo-Sintra",
+                    "text" : "Behance"
+                }
+            ]
+        }
+    }
+]

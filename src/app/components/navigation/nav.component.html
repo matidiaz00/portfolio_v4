@@ -1,0 +1,24 @@
+<nav id="header-nav">
+  <a routerLink="/" class="p-2 position-fixed position-top position-left z3" [inlineSVG]="'/assets/icons/logo_dark.svg'"></a>
+  <a class="p-2 text-white position-fixed position-top position-right z3" (click)="toggleMenu()">
+    <i class="material-icons" style="font-size: 57px; margin: -10px -5px;">menu</i>
+  </a>
+</nav>
+
+<nav id="main-menu" *ngIf="MainMenu">
+  <div class="bg-primary w-100 position-fixed position-left position-top z3 height100"></div>
+  <a class="p-2 text-white position-fixed position-top position-right z4" (click)="toggleMenu()">
+    <i class="material-icons" style="font-size: 57px; margin: -10px -5px;">close</i>
+  </a>
+  <div class="text-center h2 p-3 w-100 h-100 position-absolute position-left position-top z3 m-0 d-flex flex-column justify-content-center align-items-center">
+    <a
+      *ngFor="let menuItem of menu; let i = index"
+      class="text-white d-block mb-2"
+      (click)="toggleMenu()"
+      [routerLink]="menuItem.path"
+      routerLinkActive="active"
+    >
+      {{ menuItem.path.split('_').join(' ') }}
+    </a>
+  </div>
+</nav>

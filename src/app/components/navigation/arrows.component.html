@@ -1,0 +1,30 @@
+<nav id="header-arrow">
+  <a
+    *ngIf="checkIfShowService.arrowLeft"
+    (click)="changeRouteService.changeRoute('left')"
+    class="position-fixed position-top position-left text-white height100 d-flex align-items-center z2"
+  >
+      <i class="material-icons">keyboard_arrow_left</i>
+  </a>
+  <a
+    *ngIf="checkIfShowService.arrowRight"
+    (click)="changeRouteService.changeRoute('right')"
+    class="position-fixed position-top position-right text-white height100 d-flex align-items-center z2"
+  >
+      <i class="material-icons">keyboard_arrow_right</i>
+  </a>
+  <a
+    *ngIf="checkIfShowService.arrowTop"
+    (click)="changeRouteService.changeRoute('top')"
+    class="position-fixed position-top position-right position-left position-padding text-white d-flex justify-content-center align-items-center z2 w-100"
+  >
+      <i class="material-icons">keyboard_arrow_up</i>
+  </a>
+  <a
+    *ngIf="checkIfShowService.arrowBottom"
+    (click)="changeRouteService.changeRoute('bottom')"
+    class="position-fixed position-bottom position-right position-left position-padding text-white d-flex justify-content-center align-items-center z2 w-100"
+  >
+      <i class="material-icons">keyboard_arrow_down</i>
+  </a>
+</nav>

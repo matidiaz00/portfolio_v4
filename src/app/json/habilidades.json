@@ -1,0 +1,365 @@
+[
+    {
+        "id": "0",
+        "name" : "frontend",
+        "items" : [
+            {
+                "header" : {
+                    "type" : "image",
+                    "data" : "assets/icons/html5.svg",
+                    "height" : 70
+                },
+                "items" : [
+                    {
+                        "number" : 95,
+                        "text" : "HTML5"
+                    },
+                    {
+                        "number" : 50,
+                        "text" : "SEO"
+                    },
+                    {
+                        "number" : 60,
+                        "text" : "HTML Email"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "image",
+                    "data" : "assets/icons/css3.svg",
+                    "height" : 70
+                },
+                "items" : [
+                    {
+                        "number" : 85,
+                        "text" : "CSS3"
+                    },
+                    {
+                        "number" : 90,
+                        "text" : "Bootstrap"
+                    },
+                    {
+                        "number" : 55,
+                        "text" : "Less-SASS"
+                    },
+                    {
+                        "number" : 90,
+                        "text" : "Responsive"
+                    },
+                    {
+                        "number" : 80,
+                        "text" : "Cross Browser"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "image",
+                    "data" : "assets/icons/js.svg",
+                    "height" : 50
+                },
+                "items" : [
+                    {
+                        "number" : 65,
+                        "text" : "JavaScript"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "ReactJS"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "Angular JS - 2+"
+                    },
+                    {
+                        "number" : 75,
+                        "text" : "JQuery"
+                    },
+                    {
+                        "number" : 70,
+                        "text" : "Grunt"
+                    },
+                    {
+                        "number" : 70,
+                        "text" : "Webpack"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "id" : "1",
+        "name" : "diseno",
+        "title" : "Diseño",
+        "items" : [
+            {
+                "header" : {
+                    "type" : "material_icon",
+                    "data" : "color_lens"
+                },
+                "items" : [
+                    {
+                        "number" : 35,
+                        "text" : "UI Design"
+                    },
+                    {
+                        "number" : 35,
+                        "text" : "UX Design"
+                    },
+                    {
+                        "number" : 45,
+                        "text" : "Diseño Grafico"
+                    },
+                    {
+                        "number" : 30,
+                        "text" : "Ilustración"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "image",
+                    "data" : "assets/icons/adobe.svg",
+                    "height" : 60
+                },
+                "items" : [
+                    {
+                        "number" : 70,
+                        "text" : "Photoshop"
+                    },
+                    {
+                        "number" : 35,
+                        "text" : "Illustrator"
+                    },
+                    {
+                        "number" : 45,
+                        "text" : "Fireworks"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "id" : "2",
+        "name" : "backend",
+        "title" : "Backend",
+        "items" : [
+            {
+                "header" : {
+                    "type" : "image",
+                    "data" : "assets/icons/php.svg",
+                    "height" : 35
+                },
+                "items" : [
+                    {
+                        "number" : 30,
+                        "text" : "PHP"
+                    },
+                    {
+                        "number" : 85,
+                        "text" : "Integración HTML/PHP"
+                    },
+                    {
+                        "number" : 90,
+                        "text" : "Wordpress"
+                    },
+                    {
+                        "number" : 55,
+                        "text" : "Wordpress Codex"
+                    },
+                    {
+                        "number" : 90,
+                        "text" : "Joomla"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "image",
+                    "data" : "assets/icons/js.svg",
+                    "height" : 50
+                },
+                "items" : [
+                    {
+                        "number" : 30,
+                        "text" : "NodeJS"
+                    },
+                    {
+                        "number" : 85,
+                        "text" : "ExpressJS"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "material_icon",
+                    "data" : "pie_chart"
+                },
+                "items" : [
+                    {
+                        "number" : 20,
+                        "text" : "MySQL"
+                    },
+                    {
+                        "number" : 20,
+                        "text" : "Firebase"
+                    },
+                    {
+                        "number" : 30,
+                        "text" : "SQLite"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "image",
+                    "data" : "assets/icons/.net.svg",
+                    "height" : 50
+                },
+                "items" : [
+                    {
+                        "number" : 85,
+                        "text" : "Integración HTML/.NET"
+                    },
+                    {
+                        "number" : 40,
+                        "text" : "Umbraco"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "Visual Studio"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "material_icon",
+                    "data" : "developer_mode"
+                },
+                "items" : [
+                    {
+                        "number" : 60,
+                        "text" : "Cordova"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "Phonegap"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "id" : "3",
+        "name" : "idiomas",
+        "title" : "Idiomas",
+        "items" : [
+            {
+                "header" : {
+                    "type" : "text",
+                    "data" : "Ingles",
+                    "paragraph" : "Estuve en un instituto de ingles llamado “Instituto Headway” en la localidad de Avellaneda - Wilde, cursando hasta el tercer año y pretendo empezar de nuevo cuando tenga el próximo trabajo bajo relación de dependencia. También realice muchos viajes a Europa a demás de vivir en Portugal por medio año, gracias a ello pude practicar mucho mi inglés, estoy constantemente viendo videotutoriales en inglés desde hace varios años y esto me ayuda a practicar. Actualmente para explicarlo de una forma informal puedo leer, escuchar y entenderlo a la perfección pero todavía no tengo el nivel suficiente de escrito y oral como para comunicarme con un cliente."
+                }
+            },
+            {
+                "header" : {
+                    "type" : "text",
+                    "data" : "Portugues",
+                    "paragraph" : ""
+                }
+            }
+        ]
+    },
+
+    {
+        "id" : "4",
+        "name" : "mas",
+        "title" : "Más",
+        "items" : [
+            {
+                "header" : {
+                    "type" : "text",
+                    "data" : "SVN"
+                },
+                "items" : [
+                    {
+                        "number" : 85,
+                        "text" : "Tortoise SVN"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "Git"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "Github"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "text",
+                    "data" : "Metodologias ágiles"
+                },
+                "items" : [
+                    {
+                        "number" : 70,
+                        "text" : "Metodologias ágiles"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "Attask"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "LiquidPlanner"
+                    },
+                    {
+                        "number" : 65,
+                        "text" : "Scrum"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "text",
+                    "data" : "Servidores"
+                },
+                "items" : [
+                    {
+                        "number" : 95,
+                        "text" : "Filezilla"
+                    },
+                    {
+                        "number" : 80,
+                        "text" : "Dominios"
+                    },
+                    {
+                        "number" : 90,
+                        "text" : "CPanel"
+                    }
+                ]
+            },
+            {
+                "header" : {
+                    "type" : "text",
+                    "data" : "Otros"
+                },
+                "items" : [
+                    {
+                        "number" : 85,
+                        "text" : "Beanstalk"
+                    },
+                    {
+                        "number" : 40,
+                        "text" : "Microsoft VBA"
+                    }
+                ]
+            }
+        ]
+    }
+]
