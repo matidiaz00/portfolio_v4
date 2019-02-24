@@ -25,7 +25,7 @@ export class CheckIfShowService {
       });
   }
 
-  getGeneralData() {
+  getGeneralData():void {
     const pathCurrent = this.router.url.split("/");
 
     this.pageCurrentChildren = undefined;
@@ -48,7 +48,7 @@ export class CheckIfShowService {
     );
   }
 
-  checkIfShow(pageLast, firstMenu, lastMenu) {
+  checkIfShow(pageLast: string, firstMenu: string, lastMenu: string):void {
     this.arrowTop = (this.currentChildrenArr) ? ((this.currentChildrenArr.children[1].path === this.pageCurrentChildren) ? false : true) : false;
     this.arrowBottom = (this.currentChildrenArr) ? ((this.currentChildrenArr.children[this.currentChildrenArr.children.length - 1].path === this.pageCurrentChildren) ? false : true) : false;
     this.arrowRight = (pageLast === lastMenu) ? false : true;

@@ -9,7 +9,7 @@ import { CurriculumComponent } from '../components/pages/curriculum.component';
 import { ExperienciaComponent } from '../components/pages/experiencia.component';
 import { HabilidadesComponent } from '../components/pages/habilidades.component';
 import { ProyectosComponent } from '../components/pages/proyectos.component';
-import { ContactoComponent } from '../components/pages/contacto.component';
+import { ContactoComponent } from '../components/pages/contacto/contacto.component';
  
 const appRoutes: Routes = [
     { path: '',                       redirectTo: '/inicio', pathMatch: 'full'},

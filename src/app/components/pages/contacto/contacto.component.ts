@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpHeaders, HttpErrorResponse, HttpClient } from '@angular/common/http';
-import { DataForm } from '../dataForm';
+import { DataForm } from './dataForm';
 import { throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
