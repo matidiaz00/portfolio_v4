@@ -1,22 +1,17 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ChangeRouteService } from '../../services/changeRoute.service';
-import { CheckIfShowService } from '../../services/checkIfShowService.service';
+import { CheckIfShowService } from '../../services/checkIfShow.service';
 
 @Component({
   selector: 'app-arrows',
   templateUrl: './arrows.component.html'
 })
-export class ArrowsComponent implements AfterViewInit {
+export class ArrowsComponent {
 
   constructor(
     private changeRouteService: ChangeRouteService,
     private checkIfShowService: CheckIfShowService
   ) {}
 
-  ngAfterViewInit() {
-    this.checkIfShowService.check();
-  }
-
-  
 
 }

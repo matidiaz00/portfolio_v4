@@ -17,9 +17,7 @@ export class CheckIfShowService {
   arrowRight: boolean = false;
   arrowLeft: boolean = false;
 
-  constructor(private router : Router) { }
-  
-  check() {
+  constructor(private router : Router) {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((res) => {
