@@ -1,5 +1,5 @@
 import { Directive, HostBinding, OnInit, Input } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
+import { DomSanitizer, SafeStyle } from '@angular/platform-browser';
 
 @Directive({
   selector: '[BackrgoundPreload]'
@@ -8,21 +8,27 @@ export class BackrgoundPreloadDirective implements OnInit {
 
   @Input() img: string;
   @Input() spinner: boolean;
+  @Input() colorOverlay: string;
+  @Input() class: string;
 
-  image = new Image();
-
-  @HostBinding('style.transition') transition;
-  @HostBinding('style.backgroundImage') backgroundImage;
-
-  constructor(private sanitizer: DomSanitizer) {
-    this.sanitizer = sanitizer;
+  @HostBinding('style')
+  get myStyle(): SafeStyle {
+    return this.sanitizer.bypassSecurityTrustStyle(`background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url();`)
   }
+  @HostBinding('style.backgroundImage') backgroundImage: any;
+  @HostBinding('class.loaded') loaded: boolean;
+  @HostBinding('class') classList: string;
+
+  constructor(private sanitizer: DomSanitizer) {}
 
   ngOnInit() {
-    this.transition = "background-image 0.3s";
-    this.image.src = this.img;
-    this.image.onload = () => {
-      this.backgroundImage = this.sanitizer.bypassSecurityTrustStyle(`url(${this.image.src})`);
+    this.classList = `background-preload ${this.class} ${this.colorOverlay}-overlay`;
+    this.loaded = false;
+    const image = new Image();
+    image.src = this.img;
+    image.onload = () => {
+      this.backgroundImage = this.sanitizer.bypassSecurityTrustStyle(`url(${image.src})`);
+      this.loaded = true;
     }
   }
 

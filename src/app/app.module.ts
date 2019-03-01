@@ -8,6 +8,8 @@ import { AppRoutingModule } from './modules/router.module';
 import { DataService } from './services/data.service';
 
 import { ProgressiveImageLoaderDirective } from './directives/progressive-image-loader.directive';
+import { ImagePreloadDirective } from './directives/image-preload.directive';
+import { BackrgoundPreloadDirective } from './directives/backrgound-preload.directive';
 
 import { InlineSVGModule } from 'ng-inline-svg';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
@@ -26,8 +28,6 @@ import { ContactoComponent } from './components/pages/contacto/contacto.componen
 import { ExperienciaComponent } from './components/pages/experiencia.component';
 import { HabilidadesComponent } from './components/pages/habilidades.component';
 import { ProyectosComponent } from './components/pages/proyectos.component';
-import { ImagePreloadDirective } from './directives/image-preload.directive';
-import { BackrgoundPreloadDirective } from './directives/backrgound-preload.directive';
 
 @NgModule({
   declarations: [

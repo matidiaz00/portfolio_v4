@@ -206,6 +206,30 @@ video {
     display: flex !important;
 }
 
+.background-preload::before {
+    content: "";
+    opacity: 1;
+    transition: opacity 300ms;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.background-preload.loaded::before {
+    opacity: 0;
+}
+.degradation-overlay::before {
+    background: #2baf61;
+    background: -moz-linear-gradient(-45deg, #2baf61 0, #bad374 100%);
+    background: -webkit-linear-gradient(-45deg, #2baf61 0, #bad374 100%);
+    background: linear-gradient(135deg, #2baf61 0, #bad374 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baf61', endColorstr='#bad374', GradientType=1);
+}
+.background-preload > * {
+    position: relative;
+    z-index: 2;
+}
+
 @media (min-width: 1200px) {
     #main-wrapper {
         display: flex !important;
