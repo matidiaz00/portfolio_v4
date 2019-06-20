@@ -8,7 +8,7 @@ import { DataService } from '../../services/data.service';
 })
 export class HabilidadesComponent implements OnInit {
 
-    data: Array<Habilidad>;
+    data: any;
 
     constructor(private dataService:DataService) {}
 

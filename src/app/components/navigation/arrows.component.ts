@@ -10,7 +10,7 @@ export class ArrowsComponent {
 
   constructor(
     private changeRouteService: ChangeRouteService,
-    private checkIfShowService: CheckIfShowService
+    public checkIfShowService: CheckIfShowService
   ) {}
 
 
