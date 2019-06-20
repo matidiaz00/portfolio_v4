@@ -1,0 +1,73 @@
+Curriculum Vitae de Matias Diaz - www.matidiaz.com.ar
+
+Experiencia:
+- King Design / Enero 2009 - Presente / Web Master / Freelance / www.kingdesign.com.ar
+- 451 / Abril 2016 - Enero 2017 / Frontend Developer / Relación de dependencia / www.451.com
+- Contactar / Octubre 2015 - Abril 2016 / Web Master / Relación de dependencia / www.contactar.com.ar
+- New Kadampa Tradition / Septiembre 2011 - Diciembre 2015 / Web Master / Voluntario / www.meditarenargentina.com
+- W3 Americas / Julio 2011 - Mayo 2014 / Frontend Developer / Relación de dependencia / www.w3americas.com
+
+Habilidades / Idiomas:
+- 45% / Ingles - Tecnico (Leer y escuchar)
+- 45% / Portugues - Tecnico (Leer y escuchar)
+Habilidades / Frontend:
+- 95% / HTML5
+- 50% / SEO
+- 60% / HTML Email
+- 85% / CSS3
+- 90% / Bootstrap
+- 55% / Less-SASS
+- 90% / Responsive
+- 80% / Cross Browser
+- 65% / JavaScript
+- 65% / ReactJS
+- 65% / Angular JS - 2+
+- 75% / JQuery
+- 70% / Grunt
+Habilidades / Diseño:
+- 35% / UI Design
+- 35% / UX Design
+- 45% / Graphic Design
+- 30% / Ilustración
+- 70% / Photoshop
+- 55% / Illustrator
+- 45% / Fireworks
+Habilidades / Backend:
+- 30% / PHP
+- 85% / Integración HTML/PHP
+- 90% / Wordpress
+- 55% / Wordpress Codex
+- 90% / Joomla
+- 30% / NodeJS
+- 35% / ExpressJS
+- 20% / MySQL
+- 20% / Firebase
+- 30% / SQLIte
+- 85% / Integración HTML/.NET
+- 40% / Umbraco
+- 65% / Visual Studio
+- 60% / Cordova
+- 65% / PhoneGap
+Habilidades / Más:
+- 85% / Tortoise SVN
+- 65% / Git
+- 65% / Github
+- 70% / Metodologias Agiles
+- 65% / Attask
+- 65% / LiquidPlanner
+- 65% / Scrum
+- 95% / Filezilla
+- 80% / Dominios
+- 90% / CPanel
+- 85% / Beanstalk
+- 40% / Microsoft VBA
+
+Contacto:
+- Correo electrónico: info@matidiaz.com.ar
+- Celular: 11 2779 2931
+- Skype: matidiaz00
+- Linkedin: linkedin.com/in/matidiaz
+- Github: github.com/matidiaz00
+- Behance: behance.net/matidiaz00
+- Instagram: instagram.com/matidiaz00
+- Youtube: youtube.com/user/00matidiaz
